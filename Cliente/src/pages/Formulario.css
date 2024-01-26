@@ -1,0 +1,128 @@
+.formulario-container {
+  background: transparent;
+  border: #2c3e50;
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s ease;
+}
+
+.formulario-container:hover {
+  transform: scale(1.05);
+}
+
+.titulo {
+  font-size: 40px;
+  color: #ffffff; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.label {
+  font-size: 22px;
+  color: #fff;
+  transition: font-size 0.3s ease, color 0.3s ease;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.boton-agregar, .boton-guardar {
+  background-color: #2c3e50; /* Fondo para resaltar */
+  color: #fff;
+  padding: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-agregar:hover, .boton-guardar:hover {
+  background-color: #1a252f; /* Cambio de color al pasar el mouse */
+  transform: scale(1.05);
+}
+
+.pregunta-container, .opcion-container {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.pregunta-container:hover, .opcion-container:hover {
+  transform: scale(1.05);
+}
+
+.resumen-container {
+  margin-top: 20px;
+}
+
+.resumen-container ul {
+  list-style-type: none;
+}
+
+.resumen-container li {
+  font-size: 20px;
+  color: #444;
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.resumen-container li:hover {
+  font-size: 22px;
+  color: #3498db; /* Resalta el texto al pasar el mouse */
+}
+
+
+/*Asignacion Formulario*/
+
+.formulario-container {
+   
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .titulo {
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .boton-guardar {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-guardar:hover {
+    background-color: #1a252f;
+  }
+  

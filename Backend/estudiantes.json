@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Juan Monga",
+    "cedula": "1722194147",
+    "telefono": "0987654321",
+    "evaluaciones": [
+      {
+        "estudiante": {
+          "nombre": "Juan Monga"
+        },
+        "evaluacion": {
+          "nombre": "Progra",
+          "preguntas": [
+            {
+              "pregunta": "Hola",
+              "opciones": [
+                "Hola",
+                "Hola"
+              ]
+            }
+          ]
+        },
+        "fechaAsignacion": "2024-01-26T03:02:42.118Z"
+      }
+    ]
+  }
+]

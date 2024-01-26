@@ -1,0 +1,20 @@
+[
+  {
+    "estudiante": {
+      "nombre": "Juan Monga"
+    },
+    "evaluacion": {
+      "nombre": "Progra",
+      "preguntas": [
+        {
+          "pregunta": "Hola",
+          "opciones": [
+            "Hola",
+            "Hola"
+          ]
+        }
+      ]
+    },
+    "fechaAsignacion": "2024-01-26T03:02:42.118Z"
+  }
+]
